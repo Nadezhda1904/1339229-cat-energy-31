@@ -95,6 +95,7 @@
   width: 100%;
 }
 
+/* Псевдоэлемент лейбла, когда внутри него есть невалидный инпут */
 .data-owner__label:has(input:user-invalid)::after {
   background-color: $base-color-red;
 }
